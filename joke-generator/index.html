@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hindu Wedding - Joke Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>😄 Wedding Joke Generator</h1>
+            <p>Entertain your guests with hilarious jokes!</p>
+        </header>
+
+        <div class="controls-section">
+            <div class="control-group">
+                <label for="categorySelect">Select Category:</label>
+                <select id="categorySelect" class="category-select">
+                    <option value="Any">Any</option>
+                    <option value="General">General</option>
+                    <option value="Programming">Programming</option>
+                    <option value="Knock-Knock">Knock-Knock</option>
+                </select>
+            </div>
+            <button id="getJokeBtn" class="get-joke-btn">Get a Joke! 🎭</button>
+        </div>
+
+        <div id="jokeContainer" class="joke-container">
+            <div class="joke-placeholder">Click "Get a Joke" to start laughing! 😄</div>
+        </div>
+
+        <div class="action-buttons">
+            <button id="shareBtn" class="share-btn" disabled>Share Joke 📤</button>
+            <button id="copyBtn" class="copy-btn" disabled>Copy to Clipboard 📋</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
